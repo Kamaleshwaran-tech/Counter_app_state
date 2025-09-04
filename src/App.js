@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cart from './components/Cart';
+import Ueffect from './components/Ueffect';
+import Condition from './components/Condition';
+ import Counter from './components/Counter';
+ import Toggle from './components/Toggle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <Condition/>
+      <Toggle/>
+      <Counter/>
+      <Cart/>
+      <Ueffect/>
     </div>
   );
 }
