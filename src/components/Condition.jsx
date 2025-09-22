@@ -10,6 +10,7 @@ const Condition = () => {
         <h1>Value:{num}</h1>
         <h2>{num%2 === 0?'Even Number':'Odd Number'}</h2>
         <button onClick={()=> setNum(num+1)}>Increment</button>
+        <button onClick={()=> setNum(num-1)}>Decrement</button>
     </div>
   )
 }
